@@ -1,0 +1,55 @@
+title: 安装系统之激活
+date: 2015-01-30 16:16:49
+tags: [系统,操作系统]
+categories: 点滴发现
+---
+### 前言
+纯净系统安装后肯定需要激活，除非是升级系统；ghost系统安装后，一般不需要激活，个别情况下需要激活。
+
+### winXP
+现在，安装winXP的小伙伴已经极少极少。考虑到使用虚拟机的情况，还是分享一下激活密钥和激活工具吧。
+
+```
+正版密钥：
+MRX3F-47B9T-2487J-KWKMF-RPWBY
+HTXH6-2JJC4-CDB6C-X38B4-C3GF3 
+RT4H2-8WYHG-QKK6K-WWHJ2-9427X 
+DYPVX-43TRT-YDBGB-7YQJX-CWXW7 
+HGM7B-YF7T7-8R7RF-Y6RPY-XTQ77 
+
+Windows XP专业版最新注册码 
+DJQJB-PC83T-FTGJC-CQTCK-RJD8D 
+VMMBM-8WK8W-H44YH-37B4M-KX8QR 
+XRCTF-Y68KJ-VVFTR-7BDFP-4PW7G 
+6RV7B-FYWR2-PW3C6-DDWDR-68X9C 
+KYMTD-BV7KP-RRM33-P3XKJ-RDKVD 
+X3WYK-H7CR8-KQBMV-7DP6X-W6YQQ 
+CQWK3-CCYJY-TQDFV-2HJDR-W3B2M 
+2RXYJ-VQWXM-J2V2R-CVXQT-Y6MPY 
+X7TVH-VJTFG-BK22B-XXG6D-27326 
+VYGXV-YM8VB-4RVQX-QXBMX-G3WV7 
+4DP2D-CXW4C-TRYDH-CW4CT-PT23X 
+R6M6K-HT7G7-XG4K4-66PGK-9V2RM 
+86VYW-4RHCG-CCC7Y-64MWM-V8B68 
+VPM77-Y3YJW-W4MFC-CQTCK-D2XGK 
+K3JD6-DK6G4-YH32B-QT7VP-R8WC7 
+JRMCK-J3V37-YVCYH-MDJ37-94BHP 
+KJ3XK-3B6KW-XK62M-VDC7W-DJ6V9 
+
+WindowsXP可以无限次激活的号码 
+CXGDD-GP2B2-RKWWD-HG3HY-VDJ7J 
+RK7J8-2PGYQ-P47VV-V6PMB-F6XPQ
+
+```
+激活工具分享：http://yunpan.cn/cKvVDSmX7xBJU  提取码 788e
+<!--more-->
+### win7
+下面这个工具，是小编用过的最好用的win7激活工具，屡试不爽！
+激活工具分享：http://yunpan.cn/cKvjwPMn4NCDA  提取码 a281
+
+### win8
+win8是今后的趋势系统，下面这个工具，是小编认为最好用的win8/win8.1激活工具！
+激活工具分享：http://yunpan.cn/cKvxrq86aFTkX  提取码 8b0b
+
+### 小结
+激活方法不止一种，以上提供的工具，都是小编亲测可用的。
