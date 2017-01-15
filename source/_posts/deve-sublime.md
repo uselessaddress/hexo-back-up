@@ -100,8 +100,17 @@ SublimeREPL 可以直接在编辑器中运行一个解释器，支持很多语�
 ## sublimelinter
 语法检查插件，安装sublimelinter和sublimelinter-\*，\*为所用的语言，例如sublimelinter-php。
 
-# 后记
-工欲善其事，必先利其器。sublime，前端工程师的紫金装备。
+# 2017.01.14更新
+在用Sublime里编写Python代码时，需要把TAB键转换成四个空格。具体做法如下：
+1、菜单栏里点击Preferences，Setting。
+2、在弹出来的Preferences.sublime-settings——User文本里，添加如下三行:
+```
+{
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "expand_tabs_on_save": true
+}
+```
 
 # 参考文档
 Sublime Text 3
@@ -127,6 +136,9 @@ http://www.php100.com/html/it/focus/2014/1128/7935.html
 
 推荐！Sublime Text 最佳插件列表
 http://blog.jobbole.com/79326/
+
+sublime text3里修改TAB键为缩进为四个空格
+http://blog.csdn.net/aerchi/article/details/50395288
 
 
 
