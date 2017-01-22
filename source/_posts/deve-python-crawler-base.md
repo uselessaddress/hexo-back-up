@@ -216,7 +216,7 @@ print(soup.get_text())
 
 6、正则匹配
 ```
-link_node = soup.find('a',href=re.compile(r"til"))
+link_node = soup.find('a',href=re.compile(r'til'))
 print(link_node)
 ```
 

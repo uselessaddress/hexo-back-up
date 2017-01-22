@@ -204,9 +204,8 @@ print(s)
 # 函数
 ## 自带函数
 ```
-del sum
 L = [x*x for x in range(1,101)]
-print sum(L)
+print(sum(L))
 ```
 
 ## 自定义函数
@@ -216,7 +215,7 @@ def my_abs(x):
         return x
     else:
         return -x
-my_abs(-100)
+print(my_abs(-100))
 ```
 
 ## 引入函数库
@@ -252,24 +251,24 @@ print(average(1, 2, 2, 3, 4))
 ## list切片
 ```
 L = ['Adam', 'Lisa', 'Bart', 'Paul']
-L[0:3]
-L[:3]
-L[1:3]
-L[:]
-L[::2]
+print(L[0:3])
+print(L[:3])
+print(L[1:3])
+print(L[:])
+print(L[::2])
 ```
 
 ## 倒序切片
 ```
-L[-2:]
-L[-3:-1]
-L[-4:-1:2]
+print(L[-2:])
+print(L[-3:-1])
+print(L[-4:-1:2])
 ```
 
 ```
 L = range(1, 101)
-L[-10:]
-L[4::5][-10:]
+print(L[-10:])
+print(L[4::5][-10:])
 ```
 PS：range是有序的list，默认以函数形式表示，执行range函数，即可以list形式表示。
 

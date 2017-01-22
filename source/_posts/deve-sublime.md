@@ -100,6 +100,11 @@ SublimeREPL 可以直接在编辑器中运行一个解释器，支持很多语�
 ## sublimelinter
 语法检查插件，安装sublimelinter和sublimelinter-\*，\*为所用的语言，例如sublimelinter-php。
 
+## Jedi - Python autocompletion
+Jedi - an awesome autocompletion/static analysis library for Python.
+项目地址：https://github.com/davidhalter/jedi
+
+
 # 2017.01.14更新
 在用Sublime里编写Python代码时，需要把TAB键转换成四个空格。具体做法如下：
 1、菜单栏里点击Preferences，Setting。
