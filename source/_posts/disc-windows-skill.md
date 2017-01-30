@@ -1,9 +1,11 @@
-title: 关于windows的问题
+title: windows的一些技巧
 date: 2014-06-07 15:19:07
 tags: 
-- win7
+- windows
 - 问题
 - 优化
+- 加密
+- 密码
 categories: 点滴发现
 ---
 1、realtek高清晰音频管理器，关闭图标
@@ -13,11 +15,13 @@ categories: 点滴发现
 控制面板-外观和个性化-文件夹选项-查看-始终显示菜单
 
 3、删除用户
-开始-----控制面板----性能和维护------管理工具----计算机管理------本地用户和组----用户删掉你不想要的用户。
+开始-控制面板-性能和维护-管理工具-计算机管理-本地用户和组-用户删掉你不想要的用户。
 
 4、切换管理员账户
 计算机右击-管理-本地用户和组-用户-administrator-帐户已禁用去掉勾-关机旁的切换用户
+
 <!--more-->
+
 5、设置自动关机
 进入命令提示符界面，输入“at 18:30 shutdown -s”，表示设置在18:30自动关机。
 输入“at”可以查看当前任务。取消自动关机，“at /del”或者“at 1 /del”。
@@ -94,7 +98,8 @@ start f:\my..\
 http://wangyuhui.com.cn
 
 26、文件合成
-copy /b test.jpg + test.rar finish.jpg
+`copy /b test.jpg + test.rar finish.jpg`
+密码：`voidking`
 
 
 
