@@ -99,7 +99,6 @@ http://wangyuhui.com.cn
 
 26、文件合成
 `copy /b test.jpg + test.rar finish.jpg`
-密码：`voidking`
 
 
 
