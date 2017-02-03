@@ -10,7 +10,7 @@ categories: 设计开发
 # 前言
 Python非常适合用来开发网页爬虫，理由如下：
 1、抓取网页本身的接口
-相比与其他静态编程语言，如java，c#，c++，python抓取网页文档的接口更简洁；相比其他动态脚本语言，如perl，shell，python的urllib2包提供了较为完整的访问网页文档的API。（当然ruby也是很好的选择）
+相比与其他静态编程语言，如java，c#，c++，python抓取网页文档的接口更简洁；相比其他动态脚本语言，如perl，shell，python的urllib包提供了较为完整的访问网页文档的API。（当然ruby也是很好的选择）
 此外，抓取网页有时候需要模拟浏览器的行为，很多网站对于生硬的爬虫抓取都是封杀的。这是我们需要模拟user agent的行为构造合适的请求，譬如模拟用户登陆、模拟session/cookie的存储和设置。在python里都有非常优秀的第三方包帮你搞定，如Requests，mechanize
 
 2、网页抓取后的处理

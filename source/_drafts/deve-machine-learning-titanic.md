@@ -13,9 +13,20 @@ categories: 设计开发
 
 <!--more-->
 
+
+
 # 后记
 
 # 书签
+机器学习工程师（中/英）
+https://cn.udacity.com/course/machine-learning-engineer-nanodegree--nd009
 
+如何把 Project 0 提交到 Kaggle 上
+http://discussions.youdaxue.com/t/project-0-kaggle/7032
 
+Kaggle: Your Home for Data Science
+https://www.kaggle.com/
+
+Titanic: Machine Learning from Disaster | Kaggle
+https://www.kaggle.com/c/titanic
 
