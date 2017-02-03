@@ -37,6 +37,8 @@ File，Preferences，Command Window，Numeric format选择long，之后Apply即�
 # 后记
 
 # 书签
+Matlab视频教程
+http://www.51zxw.net/list.aspx?cid=456
 
 
 
