@@ -48,6 +48,7 @@ projects/titanic_survival_exploration 文件夹包含三个文件：
 - Titanic_Survival_Exploration.ipynb: 这是最主要的文件，项目中的主要工作都将在这个文件上完成
 - titanic_data.csv: 项目数据表。您将需要把这个数据加载到 notebook 里。
 - titanic_visualizations.py: 这个 Python 脚本包含 helper 函数，可以让数据和存活结果可视化。
+
 为了打开 jupyter notebook，需要完成以下几步。如果你使用 Windows 系统，你需要打开命令终端或 PowerShell；如果你使用 Mac 或者 Linux 系统，直接打开Terminal 终端即可。使用 cd 命令来打开项目文件夹。例如，在 Windows 上你可以使用 `cd C:\Users\username\Documents\ ` （username 用自己的用户名替换）找到项目所在的文件夹；在 Mac 上，你可以使用 `cd ~/Documents/` 。在 Windows 上你可以使用 `dir` 命令，在 Mac 或者 Linux 上用 `ls`命令列出当前目录中的文件和文件夹。如果发现进错目录，可以使用 `cd ..` 返回上一级目录。
 
 一旦你进入包含项目文件的文件夹，您可以输入命令
