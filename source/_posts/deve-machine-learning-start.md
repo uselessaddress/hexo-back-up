@@ -16,7 +16,7 @@ categories: 设计开发
 <!--more-->
 
 # 先修条件和要求
-1、掌握中级编程知识，相关知识包括：
+1、掌握中级编程知识，可以通过“编程入门”纳米学位、其他编程入门课程项目或其他软件开发实战经验获得，相关知识包括：
 
 - 字符串、数值和变量
 - 语句、操作符和表达式
@@ -28,7 +28,7 @@ categories: 设计开发
 - 解决问题
 - 算法和数据结构
 
-2、掌握中级统计学知识，相关知识包括：
+2、掌握中级统计学知识，可以通过优达学城的[统计学入门课程](https://cn.udacity.com/course/intro-to-statistics--st101)获得，相关知识包括：
 
 - 总体，样本
 - 均数、中间值、众数
@@ -37,12 +37,14 @@ categories: 设计开发
 - 正态分布
 - 精度和准确度
 
-3、掌握中级微积分和线性代数知识，相关知识包括:
+3、掌握中级微积分和线性代数知识，这些知识可以通过[线性代数复习课](https://cn.udacity.com/course/linear-algebra-refresher-course--ud953)获得，相关知识包括:
 
 - 导数
 - 积分
 - 级数展开
 - 通过特征向量和特征值进行矩阵运算
+
+我们为你准备了一些学习扩展资料，[点击这里](https://www.udacity.com/wiki/nd009?nocache#!#preliminary-resources)查看。
 
 # 决策树
 假设我们是苹果或谷歌应用商店，我们的目标是为用户推荐应用。对每个用户，我们向其推荐最有可能下载的应用。我们有一张用来制定推荐规则的数据表。
@@ -190,15 +192,6 @@ https://cn.udacity.com/course/machine-learning-engineer-nanodegree--nd009
 
 Udacity GitHub 机器学习项目
 https://github.com/udacity/machine-learning/
-
-Machine Learning Engineer Nanodegree
-https://www.udacity.com/wiki/nd009?nocache#!#preliminary-resources
-
-优达学城-统计学入门
-https://cn.udacity.com/course/intro-to-statistics--st101
-
-优达学城-基础线性代数
-https://cn.udacity.com/course/linear-algebra-refresher-course--ud953
 
 优达学城论坛
 https://discussions.youdaxue.com/c/nd009-machine-learning-engineer-cafe
