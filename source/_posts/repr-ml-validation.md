@@ -20,12 +20,13 @@ categories: 精华转载
 ```
 sort_keys = '../tools/python2_lesson13_keys.pkl'
 ```
-
 这将以 Python 2 的键顺序打开 tools 文件夹中的文件。
 
 注意：如果你没有获得评分工具期望的结果，你可能会想查看 tools/feature_format.py 文件。 由于最终项目发生的变化，一些文件更改影响了此处所写任务的数量输出。 检查你是否从资源库获得了最新版本的文件，以便 featureFormat 具有 sort_keys = False 的默认参数，并且 keys = dictionary.keys() 能够产生结果。
 
-# 
+# 部署训练/测试机制
+现在，你将添加训练和测试，以便获得一个可靠的准确率数字。 使用 sklearn.cross_validation 中的 train_test_split 验证； 将 30% 的数据用于测试，并设置 random_state 参数为 42（random_state 控制哪些点进入训练集，哪些点用于测试；将其设置为 42 意味着我们确切地知道哪些事件在哪个集中； 并且可以检查你得到的结果）。更新后的准确率是多少？
+答：0.724137931034
 
 # 源码分享
 https://github.com/voidking/ud120-projects
