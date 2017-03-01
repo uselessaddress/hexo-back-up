@@ -1,7 +1,7 @@
 title: "git tag使用说明"
 toc: true
 date: 2015-07-21 22:16:38
-tags:
+tags: git
 categories: 设计开发
 ---
 # 打标签
@@ -45,8 +45,8 @@ Git使用的标签有两种类型：轻量级的（lightweight）和含附注的
 
 打标签的操作发生在我们commit修改到本地仓库之后。
 `git add .`
-`git commit -m “fixed some bugs”`
-`git tag -a 0.1.3 -m “Release version 0.1.3″`
+`git commit -m "fixed some bugs"`
+`git tag -a 0.1.3 -m "Release version 0.1.3"`
 
 分享提交标签到远程服务器上
 `git push origin master`
