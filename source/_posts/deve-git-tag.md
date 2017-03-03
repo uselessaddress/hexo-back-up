@@ -49,9 +49,9 @@ Git使用的标签有两种类型：轻量级的（lightweight）和含附注的
 `git tag -a 0.1.3 -m "Release version 0.1.3"`
 
 分享提交标签到远程服务器上
-`git push origin master`
-`git push origin --tags`
-–tags参数表示提交所有tag至服务器端，普通的git push origin master操作不会推送标签到服务器端。
+`git push`
+`git push --tags`
+--tags参数表示提交所有tag至服务器端，普通的git push操作不会推送标签到服务器端。
 
 删除本地标签
 `git tag -d 0.1.3`
