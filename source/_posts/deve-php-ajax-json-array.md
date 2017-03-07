@@ -108,7 +108,7 @@ var data = {
 ![](http://7oxjrx.com1.z0.glb.clouddn.com//imgs/php-ajax-json-array/json4.jpg)
 根据返回结果，证明前端json数据必须先转换成字符串，然后PHP端可以获取json字符串，接着正常处理即可。
 
-# json数组
+## json数组
 ```
 $product_json_arr = $_POST['product_json_arr'];  
 echo json_encode($product_json_arr,JSON_UNESCAPED_UNICODE);
