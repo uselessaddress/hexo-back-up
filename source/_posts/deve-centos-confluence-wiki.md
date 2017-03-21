@@ -15,7 +15,7 @@ categories: 设计开发
 # 准备
 ## 下载软件包
 开始搭建Wiki前，需要下载一些[软件包](http://pan.baidu.com/s/1c1Z0lqw)。
-- confluence5.6.6
+- atlassian-confluence-5.6.6-x64
 - Confluence-5.6.6-language-pack-zh_CN
 - mysql-connector
 - confluence_keygen
@@ -65,7 +65,7 @@ confluence默认安装到`/opt/atlassian/confluence`和`/var/atlassian/applicati
 
 3、confluence的主要配置文件，存放在`/opt/atlassian/confluence/conf/server.xml`文件中。
 
-4、测试访问，假设CentOS7的ip地址为`192.168.56.101`，那么在浏览器输入`http://192.168.56.101:8089`，即可看到Confluence的欢迎界面。
+4、测试访问，假设CentOS7的ip地址为`192.168.56.101`，那么在浏览器输入`http://192.168.56.101:8090`，即可看到Confluence的欢迎界面。
 ![欢迎](http://7oxjrx.com1.z0.glb.clouddn.com//imgs/centos-confluence-wiki/welcome.jpg?imageView2/0/w/700 "欢迎")
 
 ## 破解confluence
