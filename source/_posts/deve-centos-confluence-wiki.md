@@ -135,4 +135,10 @@ http://www.ilanni.com/?p=11989
 confluence wiki搭建使用
 http://www.cnblogs.com/guigujun/p/6137673.html
 
+confluence下载页
+https://www.atlassian.com/software/confluence/download-archives
+
+confluence语言包下载页
+https://translations.atlassian.com/dashboard/download?lang=zh_CN#/Confluence/6.1.0
+
 
