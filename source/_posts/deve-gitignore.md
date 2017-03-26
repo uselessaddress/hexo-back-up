@@ -1,7 +1,7 @@
---- 
+---
 title: gitignore用法
 toc: true
-date: 2015-07-21 10:00:00
+date: 2015-07-21 11:00:00
 tags:
 - git
 - gitignore
