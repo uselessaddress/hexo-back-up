@@ -4,9 +4,9 @@ toc: true
 date: 2017-03-25 10:00:00
 tags:
 - nat
+- 反向代理
+- nginx
 - 内网穿透
-- 服务器
-- 路由
 categories: 设计开发
 ---
 # 前言
@@ -40,6 +40,9 @@ http://blog.csdn.net/m13666368773/article/details/8060481
 
 搭建nginx反向代理用做内网域名转发
 http://www.ttlsa.com/nginx/use-nginx-proxy/
+
+在阿里云上部署Nginx实现反向代理
+https://edu.cloudcare.cn/courses/368ea51822484ee1af1392dceecd38c8/detail
 
 
 
