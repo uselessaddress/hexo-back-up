@@ -35,5 +35,11 @@ https://wizardforcel.gitbooks.io/network-basic/content/18.html
 NAT简单实例，教会你如何配置访问内部开发环境
 http://blog.csdn.net/zhouhoujia/article/details/50474202
 
+正向代理与反向代理的区别【Nginx读书笔记】
+http://blog.csdn.net/m13666368773/article/details/8060481
+
+搭建nginx反向代理用做内网域名转发
+http://www.ttlsa.com/nginx/use-nginx-proxy/
+
 
 

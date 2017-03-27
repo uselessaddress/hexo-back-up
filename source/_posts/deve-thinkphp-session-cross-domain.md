@@ -5,6 +5,7 @@ date: 2016-11-27 12:42:38
 tags:
 - thinkphp
 - session
+- nginx
 - 跨域
 categories: 设计开发
 ---
@@ -242,6 +243,68 @@ add_header Access-Control-Allow-Credentials true;
 </html>
 ```
 
+# nginx配置文件
+结合《thinkphp部署到nginx服务器》中nginx的配置，最终nginx配置配置文件nginx.conf文件内容如下：
+```
+error_log  logs/error.log  error ;
+pid logs/nginx.pid;
+user  www;
+worker_processes  auto;
+worker_rlimit_nofile 51200;
+
+events {
+    use epoll;
+    worker_connections  51200;
+}
+
+
+http {
+    client_body_buffer_size 32k;
+    client_header_buffer_size 2k;
+    client_max_body_size 2m;
+    default_type application/octet-stream;
+    log_not_found off;
+    server_tokens off;
+    include       mime.types;
+    gzip on;
+    gzip_min_length  1k;
+    gzip_buffers     4 16k;
+    gzip_http_version 1.0;
+    gzip_comp_level 2;
+    gzip_types       text/plain text/css text/xml text/javascript application/x-javascript application/xml application/rss+xml application/xhtml+xml application/atom_xml;
+    gzip_vary on;
+    #error_page   500 502 503 504  /50x.html; 
+    log_format  access  '$remote_addr - $remote_user [$time_local] "$request" '
+              '$status $body_bytes_sent "$http_referer" '
+              '"$http_user_agent" $http_x_forwarded_for';
+
+    server {
+        listen 80 default_server;
+        server_name localhost api.voidking.com;
+        root /home/wwwroot/;
+        index index.php index.html index.htm;
+    
+        add_header Access-Control-Allow-Origin http://localhost;
+        add_header Access-Control-Allow-Credentials true;
+
+        location ~ \.php {
+        root /home/wwwroot/;
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+        fastcgi_split_path_info ^(.+\.php)(.*)$;
+            fastcgi_param PATH_INFO $fastcgi_path_info;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            fastcgi_param  PHP_VALUE        open_basedir=$document_root:/tmp/:/proc/;
+            include        fastcgi_params;
+        }
+
+    }
+
+    include vhost/*.conf;
+    
+}
+
+```
 
 # 后记
 至此，大功告成，session跨域问题完美解决。

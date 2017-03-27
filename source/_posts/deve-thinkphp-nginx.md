@@ -1,7 +1,7 @@
 ---
 title: thinkphp部署到nginx服务器
 toc: true
-date: 2016-11-13 18:18:15
+date: 2016-11-27 11:18:15
 tags:
 - thinkphp
 - nginx
@@ -157,9 +157,9 @@ http {
 ```
 
 # 后记
-以上配置，nginx已经支持pathinfo模式，而且支持跨域，而且404报错正常。
+至此，在虚拟机CentOS7上配置的nginx，已经支持pathinfo模式、支持跨域、404报错正常。
 
-# 2016.11.20更新
+# 阿里云
 同样的配置，放在阿里云的CentOS6.5上居然报错！无奈，寻找另外一种配置nginx支持pathinfo模式的方法。只需要在nginx.conf初始配置的基础上，修改四个地方即可：
 ```
 location ~ \.php { #去掉$
