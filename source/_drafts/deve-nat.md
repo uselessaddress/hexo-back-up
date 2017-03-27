@@ -44,5 +44,7 @@ http://www.ttlsa.com/nginx/use-nginx-proxy/
 在阿里云上部署Nginx实现反向代理
 https://edu.cloudcare.cn/courses/368ea51822484ee1af1392dceecd38c8/detail
 
+外网访问内网路由器-3种实现方法
+http://www.nat123.com/Pages_8_267.jsp
 
 
