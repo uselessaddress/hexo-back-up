@@ -16,7 +16,7 @@ Jira是Atlassian公司出品的项目与事务跟踪工具，被广泛应用于�
 
 # 准备
 ## 下载软件包
-开始搭建Jira前，需要下载一些[软件包]()。
+开始搭建Jira前，需要下载一些[软件包](http://pan.baidu.com/s/1eSMfSDO)。
 - atlassian-jira-software-7.2.2-x64
 - JIRA Core-7.2.1-language-pack-zh_CN
 - mysql-connector-java-5.1.39-bin

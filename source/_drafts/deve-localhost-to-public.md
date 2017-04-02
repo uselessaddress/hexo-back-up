@@ -1,5 +1,5 @@
 ---
-title: NAT网络地址转换
+title: 本地服务发布到公网
 toc: true
 date: 2017-03-25 10:00:00
 tags:
@@ -10,6 +10,8 @@ tags:
 categories: 设计开发
 ---
 # 前言
+本地服务发布到公网，最简单的办法，参考《微信本地调试》
+
 
 # 后记
 
@@ -46,5 +48,8 @@ https://edu.cloudcare.cn/courses/368ea51822484ee1af1392dceecd38c8/detail
 
 外网访问内网路由器-3种实现方法
 http://www.nat123.com/Pages_8_267.jsp
+
+公云
+http://www.pubyun.com/
 
 
