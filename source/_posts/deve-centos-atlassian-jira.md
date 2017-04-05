@@ -178,3 +178,6 @@ https://www.atlassian.com/software/jira/download
 jira语言包下载页
 https://translations.atlassian.com/dashboard/download?lang=zh_CN#/JIRA Core/7.2.1
 
+JIRA数据库切换（HSQL Database到MySQL）
+http://www.tuicool.com/articles/7feMjqy
+

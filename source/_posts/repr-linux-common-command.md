@@ -5,11 +5,6 @@ tags:
 - 命令
 categories: 精华转载
 ---
-
-ls：list(列出目录内容)
-
-cd：Change Directory（改变目录）
-
 su:switch user 切换用户
 
 rpm:redhat package manager 红帽子打包管理器
@@ -25,20 +20,12 @@ df: disk free其功能是显示磁盘可用空间数目信息及空间结点信�
 <!--more-->
 
 rpm： 即RedHat Package Management，是RedHat的发明之一
- 
-rmdir：Remove Directory（删除目录）
-
-rm：Remove（删除目录或文件）
-
-cat: concatenate连锁 cat file1file2>>file3把文件1和文件2的内容联合起来放到file3中
 
 insmod: install module,载入模块
 
 ln -s : link -soft 创建一个软链接，相当于创建一个快捷方式
 
 mkdir：Make Directory(创建目录)
-
-touch
 
 man: Manual
 
@@ -54,13 +41,9 @@ ps：Process Status
 
 mkdir：Make directory
 
-rmdir：Remove directory
-
 mkfs: Make file system
 
 fsck：File system check
-
-cat: Concatenate
  
 uname: Unix name
 
@@ -70,23 +53,17 @@ du: Disk usage
 
 lsmod: List modules
 
-mv: Move file
-
 rm: Remove file
-
-cp: Copy file
-
-ln: Link files
 
 fg: Foreground
 
 bg: Background
 
-chown: Change owner
+
 
 chgrp: Change group
 
-chmod: Change mode
+
 
 umount: Unmount
  
@@ -178,15 +155,9 @@ biff = 作者HeidiStettner在U.C.Berkely养的一条狗,喜欢对邮递员汪汪
 
 cal = CALendar
 
-cat = CATenate
-
 cd = Change Directory
 
 chgrp = CHange GRouP
-
-chmod = CHange MODe
-
-chown = CHange OWNer
 
 chsh = CHange SHell
 
@@ -270,8 +241,6 @@ lex = LEXical analyser
 
 lisp = LISt Processing = Lots of IrritatingSuperfluous Parentheses
 
-ln = LiNk
-
 lpr = Line PRint
 
 ls = list
@@ -295,8 +264,6 @@ motd = Message of The Day
 mozilla = MOsaic GodZILLa
 
 mtab = Mount TABle
-
-mv = MoVe
 
 nano = Nano's ANOther editor
 
@@ -455,11 +422,8 @@ bash: GNU Bourne-Again Shell
 bsh: Command interpreter (Shell)
 bc: Command line calculator
 bunzip2: Unzip .bz2 files
- 
-cat: Concatenate a file print it to the screen
+
 chgrp: Change the group designation of a file
-chmod: Change file permissions
-chown: Change the owner of a file
 cjpeg: Compress an image file to a JPEG file
 clear: Clear terminal screen (command line)
 comm: Compare two sorted files
@@ -494,8 +458,6 @@ factor: Display prime factors of a number
 false: Exit with a status code indicating failure
 fdisk: The fdisk command with usage examples
 fgrep: Variant of grep
- 
-find: Find a file
 finger: Displays information about the system users
 fixps: Try to fix common PostScript problems that break postprocessing
 free: Display free memory
@@ -522,9 +484,7 @@ last : Show listing of last logged in users
 lastlog: Formats and prints the contents of the last login log /var/log/lastlog file
 link: Call the link function to create a link to a file
 links : See elinks
-ln :  Create a link to the specified TARGET with optional LINK_NAME
 loadkeys : Load keyboard translation tables
-locate : Locate a file
 login: Sign on
 look : Displays any lines in file which contain "string" as a prefix.
 ls: List directory contents
@@ -540,11 +500,9 @@ mkdir: Create a directory
 mkfs : Make a filesystem on a drive
 mknod: Make block or character special files
 mktemp: Make temporary filename (unique)
-more : Page through text one screenful at a time.
 Mount: Mount a filesystem/device
  
 mt: Control 	magnetic tape drive operation
-mv : Move and / or rename files
 namei : Follow a pathname until a terminal point is found
 nano : An enhanced free Pico clone
 ncftp : Browser program for the File Transfer Protocol
@@ -591,9 +549,6 @@ readelf: Displays information about ELF files
 reboot: Stop the system, poweroff, reboot
 red: red is a restricted ed: it can only edit files in the current directory and cannot execute shell commands
 rename: Rename files
- 
-rmdir: Remove a directory
-rm: Remove files or directories
 rpm: rpm command options
 rundig: Sample script to create a search database for ht://Dig
 rview: The GUI version of Vim in easy mode with restrictions
@@ -625,7 +580,6 @@ tcsh: Enhanced completely compatible version of the Berkeley UNIX C shell, csh
 tee: Copy standard input to each file, and also to standard output
 telnet: User interface to the telnet protocol
 time: Run the specified program command with the given arguments
-touch: Change file timestamps
 tracepath6: See tracepath
 tracepath: Trace path to a network host discovering MTU along this path
 traceroute6: See traceroute
