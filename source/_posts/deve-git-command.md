@@ -63,11 +63,16 @@ git push
 ```
 
 # 版本回退
+1、每个文件单独版本回退
 ```
 git status
 git log
 git reset  1fe37e1bcbb894a1b594cf405ae31880cbaa6cd7 filepath/filename
-git check filepath/filename
+git checkout filepath/filename
 ```
 
+2、全部文件版本回退
+```
+git reset --hard 1fe37e1bcbb894a1b594cf405ae31880cbaa6cd7
+```
 
