@@ -8,7 +8,7 @@ tags:
 categories: 设计开发
 ---
 # 前言
-卓音工作室的服务器中，已经安装了MySQL5.7。但是，confluence和jira不支持MySQL5.7，为了安装这两款软件，必须安装MySQL5.6或以下的版本，。
+卓音工作室的服务器中，已经安装了MySQL5.7。但是，confluence和jira不支持MySQL5.7，为了安装这两款软件，必须安装MySQL5.6或更低的版本。
 
 <!--more-->
 
@@ -143,6 +143,7 @@ socket = /tmp/mysql3307.sock
 
 3、登录mysql
 `mysql -u root -p -S /tmp/mysql3307.sock`，然后输入密码voidking。
+
 
 # 书签
 MySQL之——Centos中安装多个mysql数据库的配置实例
