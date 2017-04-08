@@ -1,7 +1,7 @@
 title: mysql设置root用户密码
 toc: true
-date: 2015-04-30 09:47:04
-tags: [数据库,mysql,root]
+date: 2016-11-20 09:47:04
+tags: [mysql,centos]
 categories: 设计开发
 ---
 
@@ -28,7 +28,10 @@ categories: 设计开发
 5、重新启动MySQL，就可以使用新密码登录了
 
 # 允许远程访问
-登录mysql控制台，然后依次输入：
+1、关闭防火墙
+`systemctl stop firewalld.service`
+
+2、登录mysql控制台，然后依次输入：
 `mysql> use mysql;`
 `mysql> grant all privileges on *.* to 'root'@'%' identified by 'voidking' with grant option;`
 

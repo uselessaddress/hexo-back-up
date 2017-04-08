@@ -4,6 +4,7 @@ toc: true
 date: 2017-04-02 14:00:00
 tags:
 - mysql
+- centos
 categories: 点滴发现
 ---
 # 问题描述

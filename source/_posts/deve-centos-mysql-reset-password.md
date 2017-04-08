@@ -3,8 +3,8 @@ title: CentOS中MySQL重置密码
 toc: false
 date: 2016-11-20 11:24:57
 tags:
-- centos
 - mysql
+- centos
 categories: 设计开发
 ---
 # 问题描述
@@ -26,7 +26,7 @@ mysql> truncate table user;
 Query OK, 0 rows affected (0.00 sec)
 mysql> flush privileges;
 Query OK, 0 rows affected (0.01 sec)
-mysql> grant all privileges on *.* to root@localhost identified by 'YourNewPassword' with grant option;
+mysql> grant all privileges on *.* to root@localhost identified by 'voidking' with grant option;
 Query OK, 0 rows affected (0.01 sec)
 ```
 
@@ -58,7 +58,7 @@ kill -KILL [PID of mysqld]
 service mysqld start
 ```
 
-6、登录mysql，`mysql -u root -p`，回车后输入新设置的密码“YourNewPassword”即可。
+6、登录mysql，`mysql -u root -p`，回车后输入新设置的密码“voidking”即可。
 
 
 # 书签
