@@ -146,6 +146,13 @@ socket = /tmp/mysql3307.sock
 
 至此，多版本mysql安装配置成功！
 
+# 远程连接
+1、关闭防火墙
+`systemctl stop firewalld.service`
+
+2、登录mysql控制台：
+`mysql> grant all privileges on *.* to 'root'@'%' identified by 'voidking' with grant option;`
+
 # 书签
 MySQL之——Centos中安装多个mysql数据库的配置实例
 http://blog.csdn.net/l1028386804/article/details/48368937
