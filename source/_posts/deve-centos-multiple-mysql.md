@@ -142,8 +142,9 @@ socket = /tmp/mysql3307.sock
 `/usr/local/mysql3307/bin/mysqladmin -u root password voidking -S /tmp/mysql3307.sock`
 
 3、登录mysql
-`mysql -u root -p -S /tmp/mysql3307.sock`，然后输入密码voidking。
+`mysql -u root -p -S /tmp/mysql3307.sock`，然后输入密码voidking，成功登录mysql5.6。
 
+至此，多版本mysql安装配置成功！
 
 # 书签
 MySQL之——Centos中安装多个mysql数据库的配置实例
