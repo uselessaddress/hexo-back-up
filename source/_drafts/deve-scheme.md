@@ -17,6 +17,32 @@ PS：MIT 的两本著名教材 SICP（Structure and Interpretation of Computer P
 
 <!--more-->
 
+# 安装scheme
+1、进入[scheme官网](https://www.gnu.org/software/mit-scheme/)，下载对应平台的scheme（下文以windows为例）。
+
+2、安装下载的scheme。
+
+3、双击scheme快捷方式，如果出现如下界面，表明安装成功。
+![](setup.jpg)
+
+PS：如果打开scheme的时候报错“Requested allocation is too large. Try with smaller argument to –heap”。那么，在程序的快捷方式上右键，属性，在“目标”里加上`-heap 512`。 
+
+4、把安装路径加入环境变量。
+例如，我的scheme安装路径为`C:\Program Files (x86)\MIT-GNU Scheme`，那么，在path中加入`C:\Program Files (x86)\MIT-GNU Scheme\bin`。同时，新建系统变量MITSCHEME_LIBRARY_PATH，值为`C:\Program Files (x86)\MIT-GNU Scheme\lib`。
+
+5、测试scheme。
+打开命令行，输入`mit-scheme`，弹出如下界面，表明安装配置成功。
+![]()
+
+# hello world
+1、新建hello.scm文件，内容如下：
+```
+;The first program
+(begin
+    (display "Hello, World!")
+    (newline)
+)
+```
 
 
 # 书签
