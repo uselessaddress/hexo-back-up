@@ -15,7 +15,7 @@ categories: 设计开发
 # 安装详解
 ## 安装开发包
 ```
-yum -y install wget gcc-c++ ncurses ncurses-devel cmake make perl bison openssl openssl-devel gcc* libxml2 libxml2-devel curl-devel libjpeg* libpng* freetype*
+yum -y install wget gcc-c++ ncurses ncurses-devel cmake make perl bison openssl openssl-devel gcc* libxml2 libxml2-devel curl-devel libjpeg* libpng* freetype* --setopt=protected_multilib=false
 ```
 
 ## 下载MySQL
