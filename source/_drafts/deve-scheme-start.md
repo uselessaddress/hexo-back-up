@@ -1,5 +1,5 @@
 ---
-title: 函数式编程之Scheme
+title: 函数式编程之Scheme入门
 toc: true
 date: 2017-01-01 00:00:00
 tags:
@@ -89,6 +89,9 @@ http://www.kancloud.cn/wizardforcel/teach-yourself-scheme/147165
 http://www.kancloud.cn/wizardforcel/teach-yourself-scheme/147166
 
 
+# 源码分享
+https://github.com/voidking/scheme-start.git
+
 # 书签
 函数式编程初探
 http://www.ruanyifeng.com/blog/2012/04/functional_programming.html
@@ -101,6 +104,12 @@ http://www.yiibai.com/lisp/
 
 Scheme语言简明教程
 http://www.kancloud.cn/wizardforcel/teach-yourself-scheme/147161
+
+符号: 抽象、语义
+http://mp.weixin.qq.com/s/EeP9lggM5GKNF-UmvkTEqA
+
+编程语言的基石——Lambda calculus
+http://liujiacai.net/blog/2014/10/12/lambda-calculus-introduction/
 
 
 
