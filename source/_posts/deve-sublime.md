@@ -104,6 +104,8 @@ SublimeREPL 可以直接在编辑器中运行一个解释器，支持很多语�
 Jedi - an awesome autocompletion/static analysis library for Python.
 项目地址：https://github.com/davidhalter/jedi
 
+## ConvertToUTF8
+sublime默认不支持GBK编码格式，因此打开GBK编码的文件会出现乱码，本插件可以使sublime支持GBK编码格式。
 
 # 2017.01.14更新
 在用Sublime里编写Python代码时，需要把TAB键转换成四个空格。具体做法如下：

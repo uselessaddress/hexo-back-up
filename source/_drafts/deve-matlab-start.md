@@ -64,6 +64,31 @@ File，Set Path，Add Folder。
 **查找函数路径**
 `which sin`
 
+# 设置默认编码
+中文时，Matlab默认编码格式为GB2312。使用sublime打开文件，显示乱码，小编想把Mablab默认编码修改为UTF-8。
+
+1、在Matlab安装目录下的bin目录下（例如`D:\Program Files\MATLAB\R2010b\bin`），找到lcdata.xml文件。
+
+2、在matlab中，输入命令`feature('locale')`，查看当前使用的编码。
+
+3、编辑lcdata.xml，找到如下一段：
+```
+<locale name="zh_CN" encoding="GB2312" xpg_name="zh_CN.GB2312">
+    <alias name="zh-Hans"/>
+</locale>
+```
+
+修改为：
+```
+<locale name="zh_CN" encoding="UTF-8" xpg_name="zh_CN.UTF-8">
+    <alias name="zh-Hans"/>
+</locale>
+```
+
+然而，修改后重启，matlab依然使用GBK编码。而且，把.m文件转换成UTF-8格式后，Matlab中会出现乱码。
+
+无奈，从另一个方面入手，让sublime支持GBK编码文件，安装插件ConvertToUTF8即可。
+
 # Matlab语言基础
 ## 变量和常量
 matlab遵循弱类型语言的变量初始化和赋值语法，和python基本相同。
