@@ -3,6 +3,7 @@ title: 函数式编程之Scheme入门
 toc: true
 date: 2017-04-13 14:00:00
 tags:
+- 形式语义学
 - 函数式编程
 - lisp
 - scheme
