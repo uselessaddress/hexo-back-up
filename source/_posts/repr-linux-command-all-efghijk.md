@@ -536,6 +536,7 @@ iptables -A INPUT -p tcp -i eth0 -j DROP
 
 `isosize /dev/hdc`，显示当前光盘的容量。
 
+## J
 ### jobs
 > jobs: job status，显示正在后台运行的任务
 
