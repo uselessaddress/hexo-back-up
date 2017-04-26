@@ -338,10 +338,121 @@ plot(x, y);
 Matlab对数据是按列存储和计算的。
 
 ## 三维立体图形
+### 三维曲线图
+plot3函数调用格式：plot3(x1,y1,z1,x2,y2,z2,…)。其中x1，y1，z1，x2，y2，z2…等分别为维数相同的向量，分别存储着曲线的三个坐标值。
+
+绘制方程在t=[0,2π]的空间方程。
+
+\begin{cases}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{cases}
+
+```
+t=0:pi/10:2*pi;
+x=t;
+y=sin(t);
+z=cos(t);
+plot3(x,y,z,'r:p');
+grid on;
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+title('sine and cosine');
+```
+
+### 三维网格图和曲面图
+Matlab在绘制三维网格图与曲面图时，往往先将要绘制图形的定义区域分成若干网格，然后计算这些网格节点上的二元函数值，最后才能使用mesh和surf函数绘制相应的图形。生成网格矩阵使用meshgrid函数，其调用格式为：
+```
+[U, V]=meshgrid(x,y)
+```
+
+函数说明：利用向量x和y生成网格矩阵U和V，以便mesh和surf等函数用来绘图。其中x、y分别是长度为n和m升序排列的行向量。
+
+生成的方法是将x复制n次生成网格矩阵U，将y转置成列向量后复制m次生成网格矩阵V。坐标(uij,vij)表示xoy平面上网格节点的坐标，第三维坐标zij=f(uij,vij)。
+
+例：给定向量x=[1 2 3 4]，y=[10 11 12 13 14]，试由向量x、y生成网格矩阵。
+
+```
+x=[1 2 3 4]; %输入向量x
+y=[10 11 12 13 14]; %输入向量y
+[U,V]=meshgrid(x,y); %生成网格矩阵
+Z=peaks(U,V);
+mesh(U,V,Z); %绘制三维网格图
+```
+
+Matlab提供了一个peaks函数，可产生一个凹凸有致的曲面，包含了三个局部极大点及三个局部极小点。在matlab中输入`peaks()`、`peaks(5)`就可以看到效果。
+
+例：在 `-4<x<4，-4<y<4` 上绘制 $z=x^2+y^2$ 的三维网格图。
+
+```
+[x,y]=meshgrid(-4:4, -4:4); %定义网格数据向量x,y
+z=x.^2+y.^2; %计算二元函数值
+mesh(x,y,z); %绘制三维网格图
+% surf(x,y,z); %绘制三维曲面图
+```
+
+### 观察点
+函数view(azinmuth,elevation)
+azinmuth：方位角。观察点与坐标原点的连线在水平面上的投影和y轴负方向的夹角。（在水平面上）
+elevation：仰角。观察点与坐标原点的连线和水平面的夹角。（与水平面垂直）
+
+使用循环和观察点设定来实现动画效果。
+
+# Matlab程序设计
+## 命令文件
+Matlab提供两种源程序文件格式：命令文件和函数文件。这两种文件的扩展名相同，均为“.m”，又称为“M文件”。
+命令文件的执行方式：在提示符后键入命令文件的文件名。
+命令文件适合于用户做需要理解得到结果的小规模运算。
+
+## 函数文件
+函数文件由function语句引导。
+其格式为：
+```
+function [返回变量列表]=函数名（输入变量列表）
+```
+
+1、新建一个求阶乘的函数文件myFunc.m：
+```
+function value = myFunc(n);
+
+if n<=1
+    value = 1;
+else
+    value = myFunc(n-1)*n;
+end
+```
+
+2、重写求阶乘的函数文件myFunc2.m：
+```
+function value = myFunc2(n);
+
+value = 1;
+while n > 1
+    value = value*n;
+    n = n - 1;
+end
+```
+
+3、新建传入数值显示结果的函数文件showNum.m：
+```
+function showNum(input_var);
+
+switch input_var
+    case 1
+        disp('1');
+    case {2,3,4}
+        disp('2 or 3 or 4');
+    case 5
+        disp('5');
+    otherwise
+        disp('something else');
+end
+```
 
 # 源码分享
 https://github.com/voidking/matlab-start.git
-
 
 # 后记
 
@@ -352,5 +463,7 @@ http://www.51zxw.net/list.aspx?cid=456
 我的学习资料
 http://pan.baidu.com/s/1bp1oyXT
 
+Mathjax与LaTex公式简介
+http://mlworks.cn/posts/introduction-to-mathjax-and-latex-expression/
 
 
