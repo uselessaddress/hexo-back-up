@@ -454,8 +454,6 @@ end
 # 源码分享
 https://github.com/voidking/matlab-start.git
 
-# 后记
-
 # 书签
 Matlab视频教程
 http://www.51zxw.net/list.aspx?cid=456
