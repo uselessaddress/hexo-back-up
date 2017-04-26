@@ -435,7 +435,21 @@ while n > 1
 end
 ```
 
-3、新建传入数值显示结果的函数文件showNum.m：
+3、重写求阶乘的函数文件myFunc3.m：
+```
+function value = myFunc3(n);
+
+value = 1;
+for i=1:1:n
+    value = value*i;
+end
+
+%for i=n:-1:1
+%    value = value*i;
+%end
+```
+
+4、新建传入数值显示结果的函数文件showNum.m：
 ```
 function showNum(input_var);
 
