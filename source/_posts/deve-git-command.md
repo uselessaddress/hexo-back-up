@@ -76,3 +76,9 @@ git checkout filepath/filename
 git reset --hard 1fe37e1bcbb894a1b594cf405ae31880cbaa6cd7
 ```
 
+3、远程仓库回退
+```
+git reset --hard 1fe37e1bcbb894a1b594cf405ae31880cbaa6cd7
+git push -f
+```
+
