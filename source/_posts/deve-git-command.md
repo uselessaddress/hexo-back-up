@@ -56,10 +56,18 @@ git config --global http.sslVerify false
 ```
 
 # 上传项目
+1、master分支上传
 ```
 git add .
 git commit -m "something"
 git push
+```
+
+2、其他分支上传
+```
+git add .
+git commit -m "something"
+git push origin HEAD:branch_name
 ```
 
 # 版本回退

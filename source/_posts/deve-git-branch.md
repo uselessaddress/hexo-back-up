@@ -18,11 +18,26 @@ When we start mixing branches and commits, we will see how these two features co
 <!--more-->
 
 # 创建分支
-1、创建bugFix分支
+1、创建本地bugFix分支
 `git branch bugFix`
 
 2、切换到bugFix分支
-`git checkout bugFix`
+```
+git branch -a
+git checkout bugFix
+```
+
+3、创建远程bugFix分支
+`git push origin HEAD:bugFix`
+
+
+# 上传分支
+在bugFix分支下进行了修改，然后提交修改，命令如下：
+```
+git add .
+git commit -m "something"
+git push origin HEAD:bugFix
+```
 
 # 合并分支
 ## git merge
